@@ -3,11 +3,11 @@
 # Пример вызова:
 
 
-require __DIR__.'/translit.php';
+require __DIR__.'/Translation.class.php';
 
 $obj = new Main\Classes\Translation;
 
-$result = $obj->translate_text();
+$result = $obj->translateText();
 
 print_r($result);
 
